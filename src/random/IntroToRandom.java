@@ -7,14 +7,14 @@ import java.util.Random;
 
 public class IntroToRandom {
 	public static void main(String[] args) {
-		
-		int r = 0;
+		Random randy = new Random();
+		int r = randy.nextInt(76);
 		
 		//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
 		
-
+		
 		//4. Limit the random number between 0 and 100
 
 		//5. Limit the random number between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
